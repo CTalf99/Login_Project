@@ -1,0 +1,3 @@
+C:/msys64/home/local_admin/Login_Min_Req/build/CMakeFiles/Login.dir
+C:/msys64/home/local_admin/Login_Min_Req/build/CMakeFiles/edit_cache.dir
+C:/msys64/home/local_admin/Login_Min_Req/build/CMakeFiles/rebuild_cache.dir
