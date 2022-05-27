@@ -1,13 +1,13 @@
 #pragma once
 #include <vector>
-#include "user_details.h"
+#include "user.h"
 
 class user_list
 {
 private:
     //std::vector<user_details> users;  
 public:
-    std::vector<user_details> users;
-    void add_to_list(const user_details& user);
+    std::vector<user> users;
+    void add_to_list(const user& user);
     int number_of_users();
 };

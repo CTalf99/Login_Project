@@ -2,7 +2,7 @@
 #include "../include/create_account_details.h"
 #include "../include/printer.h"
 #include "../include/program_runner.h"
-#include "../include/user_details.h"
+#include "../include/user.h"
 #include <unistd.h>
 
 int main()

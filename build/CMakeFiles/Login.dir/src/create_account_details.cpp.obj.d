@@ -1,7 +1,7 @@
 CMakeFiles/Login.dir/src/create_account_details.cpp.obj: \
  C:/msys64/home/local_admin/Login_Project/src/create_account_details.cpp \
  C:/msys64/home/local_admin/Login_Project/include/create_account_details.h \
- C:/msys64/home/local_admin/Login_Project/include/user_details.h \
+ C:/msys64/home/local_admin/Login_Project/include/user.h \
  C:/msys64/mingw64/include/c++/11.2.0/string \
  C:/msys64/mingw64/include/c++/11.2.0/x86_64-w64-mingw32/bits/c++config.h \
  C:/msys64/mingw64/include/c++/11.2.0/x86_64-w64-mingw32/bits/os_defines.h \

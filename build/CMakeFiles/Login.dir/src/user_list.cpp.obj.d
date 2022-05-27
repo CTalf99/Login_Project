@@ -64,7 +64,7 @@ CMakeFiles/Login.dir/src/user_list.cpp.obj: \
  C:/msys64/mingw64/include/c++/11.2.0/bits/hash_bytes.h \
  C:/msys64/mingw64/include/c++/11.2.0/bits/range_access.h \
  C:/msys64/mingw64/include/c++/11.2.0/bits/vector.tcc \
- C:/msys64/home/local_admin/Login_Project/include/user_details.h \
+ C:/msys64/home/local_admin/Login_Project/include/user.h \
  C:/msys64/mingw64/include/c++/11.2.0/string \
  C:/msys64/mingw64/include/c++/11.2.0/bits/stringfwd.h \
  C:/msys64/mingw64/include/c++/11.2.0/bits/char_traits.h \

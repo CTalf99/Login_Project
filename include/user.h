@@ -1,7 +1,7 @@
 #pragma once
 #include <string>
 
-class user_details
+class user
 {
 private:
     std::string username = "blank";

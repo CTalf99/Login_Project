@@ -1,6 +1,6 @@
 #include "../include/user_list.h"
 
-void user_list::add_to_list(const user_details& user)
+void user_list::add_to_list(const user& user)
 {
     users.push_back(user);
 }

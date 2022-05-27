@@ -1,9 +1,9 @@
 #pragma once
-#include "user_details.h"
+#include "user.h"
 
 namespace create_account_details
 {
-    void create_username(user_details& u, std::string name);
-    void create_password(user_details& u, std::string pass);
-    void create_message(user_details& u, std::string mes);
+    void create_username(user& u, std::string name);
+    void create_password(user& u, std::string pass);
+    void create_message(user& u, std::string mes);
 }

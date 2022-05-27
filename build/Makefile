@@ -249,29 +249,29 @@ src/program_runner.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Login.dir/build.make CMakeFiles/Login.dir/src/program_runner.cpp.s
 .PHONY : src/program_runner.cpp.s
 
-src/user_details.obj: src/user_details.cpp.obj
-.PHONY : src/user_details.obj
+src/user.obj: src/user.cpp.obj
+.PHONY : src/user.obj
 
 # target to build an object file
-src/user_details.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Login.dir/build.make CMakeFiles/Login.dir/src/user_details.cpp.obj
-.PHONY : src/user_details.cpp.obj
+src/user.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Login.dir/build.make CMakeFiles/Login.dir/src/user.cpp.obj
+.PHONY : src/user.cpp.obj
 
-src/user_details.i: src/user_details.cpp.i
-.PHONY : src/user_details.i
+src/user.i: src/user.cpp.i
+.PHONY : src/user.i
 
 # target to preprocess a source file
-src/user_details.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Login.dir/build.make CMakeFiles/Login.dir/src/user_details.cpp.i
-.PHONY : src/user_details.cpp.i
+src/user.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Login.dir/build.make CMakeFiles/Login.dir/src/user.cpp.i
+.PHONY : src/user.cpp.i
 
-src/user_details.s: src/user_details.cpp.s
-.PHONY : src/user_details.s
+src/user.s: src/user.cpp.s
+.PHONY : src/user.s
 
 # target to generate assembly for a file
-src/user_details.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Login.dir/build.make CMakeFiles/Login.dir/src/user_details.cpp.s
-.PHONY : src/user_details.cpp.s
+src/user.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Login.dir/build.make CMakeFiles/Login.dir/src/user.cpp.s
+.PHONY : src/user.cpp.s
 
 src/user_list.obj: src/user_list.cpp.obj
 .PHONY : src/user_list.obj
@@ -321,9 +321,9 @@ help:
 	@echo "... src/program_runner.obj"
 	@echo "... src/program_runner.i"
 	@echo "... src/program_runner.s"
-	@echo "... src/user_details.obj"
-	@echo "... src/user_details.i"
-	@echo "... src/user_details.s"
+	@echo "... src/user.obj"
+	@echo "... src/user.i"
+	@echo "... src/user.s"
 	@echo "... src/user_list.obj"
 	@echo "... src/user_list.i"
 	@echo "... src/user_list.s"

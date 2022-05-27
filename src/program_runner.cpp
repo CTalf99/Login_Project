@@ -1,7 +1,7 @@
 #include "../include/program_runner.h"
 #include "../include/check_credentials.h"
 #include "../include/create_account_details.h"
-#include "../include/user_details.h"
+#include "../include/user.h"
 #include "../include/printer.h"
 #include <iostream>
 #include <memory>
@@ -35,7 +35,7 @@ bool program_runner::logon_successful(int i, user_list list)
 
 void program_runner::create_new_user(user_list& list)
 {
-    std::shared_ptr<user_details> user_ptr = std::make_shared<user_details>();
+    std::shared_ptr<user> user_ptr = std::make_shared<user>();
 
     std::string user_name;
     std::string password;
