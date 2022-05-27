@@ -6,6 +6,7 @@
 #include <iostream>
 #include <memory>
 #include <unistd.h>
+#include <limits>
 
 int program_runner::find_logon_target_user(user_list list)
 {
@@ -44,11 +45,14 @@ void program_runner::create_new_user(user_list& list)
 
     std::cout << "Username: " << "\n";
     std::cin >> user_name;
+    std::cout << std::flush;
     std::cout << "Password: " << "\n";
     std::cin >> password;
+    std::cout << std::flush;
     system("clear");
-    std::cout << "Message: " << "\n";
+    std::cout << "Set your message: " << "\n";
     std::cin >> message;
+    std::cout << std::flush;
     system("clear");
 
     create_account_details::create_username(*user_ptr, user_name);
@@ -65,37 +69,52 @@ void program_runner::run()
 
     while(!end)
     {
-        system("clear");
         printer::start_menu();
         int menuOption;
-        std::cin >> menuOption;
+        while (!(std::cin >> menuOption) || (menuOption > 3 || menuOption < 1)) 
+        {
+            std::cin.clear(); //clear bad input flag
+            std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n'); //discard input
+            std::cout << "Invalid input; please re-enter.\n";
+            system("clear");
+            printer::start_menu();
+        }
 
         switch(menuOption)
         {
             case 1:
             {
+                system("clear");
                 int i = find_logon_target_user(users);
                 if (i > -1)
                 {
                     if(logon_successful(i, users))
                     {
+                        system("clear");
                         std::cout << "Your secret message is: " << users.users[i].get_message() << "\n";
+                        std::cout << std::flush;
                         sleep(2);
                     }
                     else 
                     {
+                        system("clear");
                         std::cout << "Incorrect password!" << "\n";
+                        std::cout << std::flush;
                         sleep(2);
                     }
                 }
                 else 
                 {
+                    system("clear");
                     std::cout << "username not on system" << "\n";
+                    std::cout << std::flush;
+                    sleep(2);
                 }
                 break;
             }
             case 2:
             {
+                system("clear");
                 create_new_user(users);
                 break;
             }

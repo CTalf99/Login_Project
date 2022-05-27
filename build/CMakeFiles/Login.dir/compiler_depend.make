@@ -770,7 +770,13 @@ CMakeFiles/Login.dir/src/program_runner.cpp.obj: ../src/program_runner.cpp \
   ../include/printer.h \
   C:/msys64/mingw64/include/c++/11.2.0/iostream \
   C:/msys64/mingw64/include/c++/11.2.0/istream \
-  C:/msys64/mingw64/include/c++/11.2.0/bits/istream.tcc
+  C:/msys64/mingw64/include/c++/11.2.0/bits/istream.tcc \
+  C:/msys64/mingw64/include/unistd.h \
+  C:/msys64/mingw64/include/io.h \
+  C:/msys64/mingw64/include/string.h \
+  C:/msys64/mingw64/include/sec_api/string_s.h \
+  C:/msys64/mingw64/include/getopt.h \
+  C:/msys64/mingw64/include/c++/11.2.0/limits
 
 CMakeFiles/Login.dir/src/user_details.cpp.obj: ../src/user_details.cpp \
   ../include/user_details.h \
@@ -1334,6 +1340,8 @@ C:/msys64/mingw64/include/c++/11.2.0/bits/stl_iterator_base_types.h:
 C:/msys64/mingw64/include/c++/11.2.0/bits/stl_algo.h:
 
 C:/msys64/mingw64/include/stdlib.h:
+
+C:/msys64/mingw64/include/c++/11.2.0/limits:
 
 C:/msys64/mingw64/include/c++/11.2.0/pstl/glue_memory_defs.h:
 
