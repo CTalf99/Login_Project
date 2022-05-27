@@ -12,7 +12,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 project(Login VERSION 1.0)
 
 #this is a variable which lists all the cpp files you will need to link
-set(SRC_FILES src/check_credentials.cpp src/create_account_details.cpp src/printer.cpp src/user_details.cpp src/program_runner.cpp)
+set(SRC_FILES src/check_credentials.cpp src/create_account_details.cpp src/printer.cpp src/user_details.cpp src/program_runner.cpp src/printer.cpp src/user_list.cpp)
 
 
 #The executable name and where the main function is

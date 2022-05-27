@@ -1,6 +1,6 @@
 CMakeFiles/Login.dir/src/user_details.cpp.obj: \
- C:/msys64/home/local_admin/Login_Min_Req/src/user_details.cpp \
- C:/msys64/home/local_admin/Login_Min_Req/include/user_details.h \
+ C:/msys64/home/local_admin/Login_Project/src/user_details.cpp \
+ C:/msys64/home/local_admin/Login_Project/include/user_details.h \
  C:/msys64/mingw64/include/c++/11.2.0/string \
  C:/msys64/mingw64/include/c++/11.2.0/x86_64-w64-mingw32/bits/c++config.h \
  C:/msys64/mingw64/include/c++/11.2.0/x86_64-w64-mingw32/bits/os_defines.h \

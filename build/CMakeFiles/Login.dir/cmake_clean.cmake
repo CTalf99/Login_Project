@@ -11,6 +11,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Login.dir/src/program_runner.cpp.obj.d"
   "CMakeFiles/Login.dir/src/user_details.cpp.obj"
   "CMakeFiles/Login.dir/src/user_details.cpp.obj.d"
+  "CMakeFiles/Login.dir/src/user_list.cpp.obj"
+  "CMakeFiles/Login.dir/src/user_list.cpp.obj.d"
   "Login.exe"
   "Login.exe.manifest"
   "Login.pdb"
