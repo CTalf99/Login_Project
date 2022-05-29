@@ -8,7 +8,7 @@
 #include <unistd.h>
 #include <limits>
 
-int program_runner::find_logon_target_user(user_list list)
+int program_runner::find_logon_target_user(const user_list& list)
 {
     std::string user_name;
 
@@ -24,7 +24,7 @@ int program_runner::find_logon_target_user(user_list list)
     return -1;
 }
 
-bool program_runner::check_logon_successful(user user)
+bool program_runner::check_logon_successful(const user& user)
 {
     std::cout << "Enter your password: ";
     std::string password;
@@ -33,14 +33,14 @@ bool program_runner::check_logon_successful(user user)
     return (check_credentials::check_password(user, password));
 }
 
-void program_runner::logon_steps(const user_list& users, int i)
+void program_runner::logon_steps(const user_list& list, int i)
 {
     if (i > -1)
     {
-        if(check_logon_successful(users.users[i]))
+        if(check_logon_successful(list.users[i]))
         {
             system("clear");
-            std::cout << "Your secret message is: " << users.users[i].get_message() << "\n";
+            std::cout << "Your secret message is: " << list.users[i].get_message() << "\n";
             std::cout << std::flush;
             sleep(2);
         }

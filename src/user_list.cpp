@@ -5,7 +5,7 @@ void user_list::add_to_list(const user& user)
     users.push_back(user);
 }
 
-int user_list::number_of_users()
+int user_list::number_of_users() const
 {
     return users.size();
 }
