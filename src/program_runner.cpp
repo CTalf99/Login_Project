@@ -24,7 +24,7 @@ int program_runner::find_logon_target_user(user_list list)
     return -1;
 }
 
-bool program_runner::logon_successful(int i, user_list list)
+bool program_runner::logon_successful(int i, user_list list) //user& change parameters
 {
     std::cout << "Enter your password: ";
     std::string password;
@@ -62,7 +62,7 @@ void program_runner::create_new_user(user_list& list)
     list.users.push_back(*user_ptr);
 }
 
-void program_runner::run()
+void program_runner::run() // break out into different function - show menu fn. 
 {
     user_list users;
     bool end = false;
