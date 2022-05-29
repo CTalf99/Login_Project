@@ -9,3 +9,4 @@ int user_list::number_of_users()
 {
     return users.size();
 }
+

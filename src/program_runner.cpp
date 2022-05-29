@@ -2,7 +2,7 @@
 #include "../include/check_credentials.h"
 #include "../include/create_account_details.h"
 #include "../include/user.h"
-#include "../include/printer.h"
+#include "../include/menu.h"
 #include <iostream>
 #include <memory>
 #include <unistd.h>
@@ -24,13 +24,42 @@ int program_runner::find_logon_target_user(user_list list)
     return -1;
 }
 
-bool program_runner::logon_successful(int i, user_list list) //user& change parameters
+bool program_runner::check_logon_successful(user user)
 {
     std::cout << "Enter your password: ";
     std::string password;
     std::cin >> password;
 
-    return (check_credentials::check_password(list.users[i], password));
+    return (check_credentials::check_password(user, password));
+}
+
+void program_runner::logon_steps(const user_list& users, int i)
+{
+    if (i > -1)
+    {
+        if(check_logon_successful(users.users[i]))
+        {
+            system("clear");
+            std::cout << "Your secret message is: " << users.users[i].get_message() << "\n";
+            std::cout << std::flush;
+            sleep(2);
+        }
+        else 
+        {
+            system("clear");
+            std::cout << "Incorrect password!" << "\n";
+            std::cout << std::flush;
+            sleep(2);
+        }
+    }
+    else 
+    {
+        system("clear");
+        std::cout << "username not on system" << "\n";
+        std::cout << std::flush;
+        sleep(2);
+    }
+
 }
 
 void program_runner::create_new_user(user_list& list)
@@ -62,54 +91,22 @@ void program_runner::create_new_user(user_list& list)
     list.users.push_back(*user_ptr);
 }
 
-void program_runner::run() // break out into different function - show menu fn. 
+void program_runner::run()
 {
     user_list users;
     bool end = false;
 
     while(!end)
     {
-        printer::start_menu();
-        int menuOption;
-        while (!(std::cin >> menuOption) || (menuOption > 3 || menuOption < 1)) 
-        {
-            std::cin.clear(); //clear bad input flag
-            std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n'); //discard input
-            std::cout << "Invalid input; please re-enter.\n";
-            system("clear");
-            printer::start_menu();
-        }
-
+        int menuOption = menu::start_menu();;
+        
         switch(menuOption)
         {
             case 1:
             {
                 system("clear");
                 int i = find_logon_target_user(users);
-                if (i > -1)
-                {
-                    if(logon_successful(i, users))
-                    {
-                        system("clear");
-                        std::cout << "Your secret message is: " << users.users[i].get_message() << "\n";
-                        std::cout << std::flush;
-                        sleep(2);
-                    }
-                    else 
-                    {
-                        system("clear");
-                        std::cout << "Incorrect password!" << "\n";
-                        std::cout << std::flush;
-                        sleep(2);
-                    }
-                }
-                else 
-                {
-                    system("clear");
-                    std::cout << "username not on system" << "\n";
-                    std::cout << std::flush;
-                    sleep(2);
-                }
+                logon_steps(users, i);
                 break;
             }
             case 2:
@@ -120,7 +117,7 @@ void program_runner::run() // break out into different function - show menu fn.
             }
             case 3:
             {
-                end = true;
+                end = menu::check_quit();
                 break;
             }
             default:

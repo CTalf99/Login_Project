@@ -111,24 +111,10 @@ CMakeFiles/Login.dir/src/create_account_details.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Login.dir/src/create_account_details.cpp.s"
 	/C/msys64/mingw64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /C/msys64/home/local_admin/Login_Project/src/create_account_details.cpp -o CMakeFiles/Login.dir/src/create_account_details.cpp.s
 
-CMakeFiles/Login.dir/src/printer.cpp.obj: CMakeFiles/Login.dir/flags.make
-CMakeFiles/Login.dir/src/printer.cpp.obj: ../src/printer.cpp
-CMakeFiles/Login.dir/src/printer.cpp.obj: CMakeFiles/Login.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/C/msys64/home/local_admin/Login_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Login.dir/src/printer.cpp.obj"
-	/C/msys64/mingw64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Login.dir/src/printer.cpp.obj -MF CMakeFiles/Login.dir/src/printer.cpp.obj.d -o CMakeFiles/Login.dir/src/printer.cpp.obj -c /C/msys64/home/local_admin/Login_Project/src/printer.cpp
-
-CMakeFiles/Login.dir/src/printer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Login.dir/src/printer.cpp.i"
-	/C/msys64/mingw64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /C/msys64/home/local_admin/Login_Project/src/printer.cpp > CMakeFiles/Login.dir/src/printer.cpp.i
-
-CMakeFiles/Login.dir/src/printer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Login.dir/src/printer.cpp.s"
-	/C/msys64/mingw64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /C/msys64/home/local_admin/Login_Project/src/printer.cpp -o CMakeFiles/Login.dir/src/printer.cpp.s
-
 CMakeFiles/Login.dir/src/user.cpp.obj: CMakeFiles/Login.dir/flags.make
 CMakeFiles/Login.dir/src/user.cpp.obj: ../src/user.cpp
 CMakeFiles/Login.dir/src/user.cpp.obj: CMakeFiles/Login.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/C/msys64/home/local_admin/Login_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Login.dir/src/user.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/C/msys64/home/local_admin/Login_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Login.dir/src/user.cpp.obj"
 	/C/msys64/mingw64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Login.dir/src/user.cpp.obj -MF CMakeFiles/Login.dir/src/user.cpp.obj.d -o CMakeFiles/Login.dir/src/user.cpp.obj -c /C/msys64/home/local_admin/Login_Project/src/user.cpp
 
 CMakeFiles/Login.dir/src/user.cpp.i: cmake_force
@@ -142,7 +128,7 @@ CMakeFiles/Login.dir/src/user.cpp.s: cmake_force
 CMakeFiles/Login.dir/src/program_runner.cpp.obj: CMakeFiles/Login.dir/flags.make
 CMakeFiles/Login.dir/src/program_runner.cpp.obj: ../src/program_runner.cpp
 CMakeFiles/Login.dir/src/program_runner.cpp.obj: CMakeFiles/Login.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/C/msys64/home/local_admin/Login_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Login.dir/src/program_runner.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/C/msys64/home/local_admin/Login_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Login.dir/src/program_runner.cpp.obj"
 	/C/msys64/mingw64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Login.dir/src/program_runner.cpp.obj -MF CMakeFiles/Login.dir/src/program_runner.cpp.obj.d -o CMakeFiles/Login.dir/src/program_runner.cpp.obj -c /C/msys64/home/local_admin/Login_Project/src/program_runner.cpp
 
 CMakeFiles/Login.dir/src/program_runner.cpp.i: cmake_force
@@ -152,6 +138,20 @@ CMakeFiles/Login.dir/src/program_runner.cpp.i: cmake_force
 CMakeFiles/Login.dir/src/program_runner.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Login.dir/src/program_runner.cpp.s"
 	/C/msys64/mingw64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /C/msys64/home/local_admin/Login_Project/src/program_runner.cpp -o CMakeFiles/Login.dir/src/program_runner.cpp.s
+
+CMakeFiles/Login.dir/src/menu.cpp.obj: CMakeFiles/Login.dir/flags.make
+CMakeFiles/Login.dir/src/menu.cpp.obj: ../src/menu.cpp
+CMakeFiles/Login.dir/src/menu.cpp.obj: CMakeFiles/Login.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/C/msys64/home/local_admin/Login_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Login.dir/src/menu.cpp.obj"
+	/C/msys64/mingw64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Login.dir/src/menu.cpp.obj -MF CMakeFiles/Login.dir/src/menu.cpp.obj.d -o CMakeFiles/Login.dir/src/menu.cpp.obj -c /C/msys64/home/local_admin/Login_Project/src/menu.cpp
+
+CMakeFiles/Login.dir/src/menu.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Login.dir/src/menu.cpp.i"
+	/C/msys64/mingw64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /C/msys64/home/local_admin/Login_Project/src/menu.cpp > CMakeFiles/Login.dir/src/menu.cpp.i
+
+CMakeFiles/Login.dir/src/menu.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Login.dir/src/menu.cpp.s"
+	/C/msys64/mingw64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /C/msys64/home/local_admin/Login_Project/src/menu.cpp -o CMakeFiles/Login.dir/src/menu.cpp.s
 
 CMakeFiles/Login.dir/src/user_list.cpp.obj: CMakeFiles/Login.dir/flags.make
 CMakeFiles/Login.dir/src/user_list.cpp.obj: ../src/user_list.cpp
@@ -172,9 +172,9 @@ Login_OBJECTS = \
 "CMakeFiles/Login.dir/src/main.cpp.obj" \
 "CMakeFiles/Login.dir/src/check_credentials.cpp.obj" \
 "CMakeFiles/Login.dir/src/create_account_details.cpp.obj" \
-"CMakeFiles/Login.dir/src/printer.cpp.obj" \
 "CMakeFiles/Login.dir/src/user.cpp.obj" \
 "CMakeFiles/Login.dir/src/program_runner.cpp.obj" \
+"CMakeFiles/Login.dir/src/menu.cpp.obj" \
 "CMakeFiles/Login.dir/src/user_list.cpp.obj"
 
 # External object files for target Login
@@ -183,9 +183,9 @@ Login_EXTERNAL_OBJECTS =
 Login.exe: CMakeFiles/Login.dir/src/main.cpp.obj
 Login.exe: CMakeFiles/Login.dir/src/check_credentials.cpp.obj
 Login.exe: CMakeFiles/Login.dir/src/create_account_details.cpp.obj
-Login.exe: CMakeFiles/Login.dir/src/printer.cpp.obj
 Login.exe: CMakeFiles/Login.dir/src/user.cpp.obj
 Login.exe: CMakeFiles/Login.dir/src/program_runner.cpp.obj
+Login.exe: CMakeFiles/Login.dir/src/menu.cpp.obj
 Login.exe: CMakeFiles/Login.dir/src/user_list.cpp.obj
 Login.exe: CMakeFiles/Login.dir/build.make
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/C/msys64/home/local_admin/Login_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable Login.exe"

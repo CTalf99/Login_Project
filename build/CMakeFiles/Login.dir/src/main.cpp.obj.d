@@ -115,7 +115,7 @@ CMakeFiles/Login.dir/src/main.cpp.obj: \
  C:/msys64/mingw64/include/c++/11.2.0/bits/charconv.h \
  C:/msys64/mingw64/include/c++/11.2.0/bits/basic_string.tcc \
  C:/msys64/home/local_admin/Login_Project/include/create_account_details.h \
- C:/msys64/home/local_admin/Login_Project/include/printer.h \
+ C:/msys64/home/local_admin/Login_Project/include/menu.h \
  C:/msys64/mingw64/include/c++/11.2.0/iostream \
  C:/msys64/mingw64/include/c++/11.2.0/ostream \
  C:/msys64/mingw64/include/c++/11.2.0/ios \
@@ -180,8 +180,4 @@ CMakeFiles/Login.dir/src/main.cpp.obj: \
  C:/msys64/mingw64/include/c++/11.2.0/bits/stream_iterator.h \
  C:/msys64/mingw64/include/c++/11.2.0/bits/uses_allocator_args.h \
  C:/msys64/mingw64/include/c++/11.2.0/pstl/glue_memory_defs.h \
- C:/msys64/mingw64/include/c++/11.2.0/pstl/execution_defs.h \
- C:/msys64/mingw64/include/unistd.h C:/msys64/mingw64/include/io.h \
- C:/msys64/mingw64/include/string.h \
- C:/msys64/mingw64/include/sec_api/string_s.h \
- C:/msys64/mingw64/include/getopt.h
+ C:/msys64/mingw64/include/c++/11.2.0/pstl/execution_defs.h

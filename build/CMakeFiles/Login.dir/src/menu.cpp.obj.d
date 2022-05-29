@@ -1,5 +1,5 @@
-CMakeFiles/Login.dir/src/printer.cpp.obj: \
- C:/msys64/home/local_admin/Login_Project/src/printer.cpp \
+CMakeFiles/Login.dir/src/menu.cpp.obj: \
+ C:/msys64/home/local_admin/Login_Project/src/menu.cpp \
  C:/msys64/home/local_admin/Login_Project/include/menu.h \
  C:/msys64/mingw64/include/c++/11.2.0/iostream \
  C:/msys64/mingw64/include/c++/11.2.0/x86_64-w64-mingw32/bits/c++config.h \

@@ -201,29 +201,29 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Login.dir/build.make CMakeFiles/Login.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
-src/printer.obj: src/printer.cpp.obj
-.PHONY : src/printer.obj
+src/menu.obj: src/menu.cpp.obj
+.PHONY : src/menu.obj
 
 # target to build an object file
-src/printer.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Login.dir/build.make CMakeFiles/Login.dir/src/printer.cpp.obj
-.PHONY : src/printer.cpp.obj
+src/menu.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Login.dir/build.make CMakeFiles/Login.dir/src/menu.cpp.obj
+.PHONY : src/menu.cpp.obj
 
-src/printer.i: src/printer.cpp.i
-.PHONY : src/printer.i
+src/menu.i: src/menu.cpp.i
+.PHONY : src/menu.i
 
 # target to preprocess a source file
-src/printer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Login.dir/build.make CMakeFiles/Login.dir/src/printer.cpp.i
-.PHONY : src/printer.cpp.i
+src/menu.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Login.dir/build.make CMakeFiles/Login.dir/src/menu.cpp.i
+.PHONY : src/menu.cpp.i
 
-src/printer.s: src/printer.cpp.s
-.PHONY : src/printer.s
+src/menu.s: src/menu.cpp.s
+.PHONY : src/menu.s
 
 # target to generate assembly for a file
-src/printer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Login.dir/build.make CMakeFiles/Login.dir/src/printer.cpp.s
-.PHONY : src/printer.cpp.s
+src/menu.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Login.dir/build.make CMakeFiles/Login.dir/src/menu.cpp.s
+.PHONY : src/menu.cpp.s
 
 src/program_runner.obj: src/program_runner.cpp.obj
 .PHONY : src/program_runner.obj
@@ -315,9 +315,9 @@ help:
 	@echo "... src/main.obj"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
-	@echo "... src/printer.obj"
-	@echo "... src/printer.i"
-	@echo "... src/printer.s"
+	@echo "... src/menu.obj"
+	@echo "... src/menu.i"
+	@echo "... src/menu.s"
 	@echo "... src/program_runner.obj"
 	@echo "... src/program_runner.i"
 	@echo "... src/program_runner.s"
